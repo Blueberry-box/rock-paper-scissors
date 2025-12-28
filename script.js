@@ -1,4 +1,5 @@
-console.log("Hello World");
+let humanScore = 0;
+let computerScore = 0;
 
 
 function getComputerChoice () {
@@ -43,14 +44,10 @@ function playRound (humanChoice, computerChoice) {
 }
 
 
-
 function playGame () {
-    const humanChoice = getHumanChoice().toLowerCase();
-    const computerChoice = getComputerChoice();
-
-    let humanScore = 0;
-    let computerScore = 0;
     for (let i = 0; i < 5; i++) {
+        const humanChoice = getHumanChoice().toLowerCase();
+        const computerChoice = getComputerChoice();
         playRound(humanChoice, computerChoice);
     }
     console.log(`Human score:${humanScore} Computer score: ${computerScore}`);
