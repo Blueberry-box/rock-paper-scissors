@@ -88,23 +88,3 @@ buttons.appendChild(buttonScissors);
 buttonRock.addEventListener("click", playRound);
 buttonPaper.addEventListener("click", playRound);
 buttonScissors.addEventListener("click", playRound);
-
-
-// buttonPaper.addEventListener("click", playRound("paper", getComputerChoice));
-// buttonScissors.addEventListener("click", playRound("scissors", getComputerChoice))
-
-
-// console.log(`Human score:${humanScore} Computer score: ${computerScore}`);
-
-
-
-// function playGame () {
-//     for (let i = 0; i < 5; i++) {
-//         const humanChoice = getHumanChoice().toLowerCase();
-//         const computerChoice = getComputerChoice();
-//         playRound(humanChoice, computerChoice);
-//     }
-//     console.log(`Human score:${humanScore} Computer score: ${computerScore}`);
-// }
-
-// playGame();
