@@ -37,7 +37,6 @@ function updateScore () {
 function playRound (event) {
     let computerChoice = getComputerChoice();
     let humanChoice = event.target.innerText;
-    // console.log(`Test line ${humanChoice}`);
     const results = document.querySelector(".results");
 
     if (humanChoice === computerChoice) {
